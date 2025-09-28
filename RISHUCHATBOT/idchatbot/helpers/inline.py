@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 from config import SUPPORT_GRP, UPDATE_CHNL
-from RISHUCHATBOT import OWNER, RISHUCHATBOT
+from RISHUCHATBOT import OWNER, ShizukaChatRoobot
 
 
 START_BOT = [
@@ -16,7 +16,7 @@ DEV_OP = [
     [
         InlineKeyboardButton(
             text="❍ 𝐀ᴅᴅ 𝐌ᴇ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ ❍",
-            url=f"https://t.me/{RISHUCHATBOT.username}?startgroup=true",
+            url=f"https://t.me/{ShizukaChatRoobot.username}?startgroup=true",
         ),
     ],
     [
