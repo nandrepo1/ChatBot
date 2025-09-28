@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 from config import SUPPORT_GRP, UPDATE_CHNL
-from RISHUCHATBOT import OWNER, ShizukaChatRoobot
+from RISHUCHATBOT import OWNER, RISHUCHATBOT
 
 
 START_BOT = [
